@@ -58,8 +58,8 @@ class Complex{
         cn2.setReal(real);
         cn2.setImaginary(imaginary);
 
-        // System.out.println(Complex.sum(cn, cn2));
-        // System.out.println(Complex.difference(cn, cn2));
+        System.out.println(Complex.sum(cn, cn2));
+        System.out.println(Complex.difference(cn, cn2));
         System.out.println(Complex.product(cn, cn2));
     }
 }
