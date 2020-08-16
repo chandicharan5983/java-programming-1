@@ -23,7 +23,7 @@ class RectangleArea extends Rectangle{
 	}
 	public void display(){
 		super.display();
-		System.out.println("Area: " + (width*height)/2);
+		System.out.println("Area: " + width*height);
 	}
 
 	public static void main(String[] args){
